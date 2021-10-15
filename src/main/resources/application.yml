@@ -1,0 +1,4 @@
+management:
+  server:    port: 8081 # Sobre escribe el puerto en el que se mostrara el actuator 
+  endpoints:    web:
+      base-path: /my-actuator # Sobre escribe el path /actuator por default      exposure:        include: "*" # Expone todos los endpoints
